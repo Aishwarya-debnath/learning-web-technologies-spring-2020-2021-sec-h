@@ -1,0 +1,18 @@
+<students>
+
+  <SL.No> 23 </SL.No>
+  <name> John Carter</name>
+  <admission> 25/12/15 </admission>
+  
+  
+  <SL.No> 29 </SL.No>
+  <name> Bob marshal </name>
+  <admission> 13/1/1999 </admission>
+  
+  
+  <SL.No> 35 </SL.No>
+  <name> Clark kent </name>
+  <admission> 17/06/2005 </admission>
+
+
+</students>
