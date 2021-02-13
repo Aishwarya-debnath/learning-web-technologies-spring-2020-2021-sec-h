@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>Person Profile</title>
+	</head>
+   
+   	<body>
+		<table height=600 border="1" align="center">
+			<tr height=100>
+				<td colspan="3"><h1 align="center">PERSON PROFILE</h1></td>
+			</tr>
+
+			<br>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Name</p></td>	
+				<td colspan="1" align="left" width=330>&nbsp;<input type="text" size=30/></td>
+				<td colspan="1" align="left" width=30></td>
+			<tr>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Email</p></td>	
+				<td colspan="1" align="left" width=330>&nbsp;<input type="text" size=30/></td>
+				<td colspan="1" align="left" width=30></td>
+			<tr>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Gender</p></td>	
+				<td colspan="1" align="left" width=330>
+					<input type="radio" value="Male"/>Male
+					<input type="radio" value="Female"/>Female
+					<input type="radio" value="Other"/>Other
+				</td>
+				<td colspan="1" align="left" width=30></td>
+			<tr>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Date of Birth</p></td>	
+				<td colspan="1" align="left" width=330>
+					<table>
+						<tr>
+							<td><input type="text" name="day" size=4/>/ </td>
+							<td><input type="text" name="month"/ size=4>/ </td>
+							<td><input type="text" name="year"/ size=4></td>
+							<td><i>(dd/mm/yyyy)</i></td>
+						</tr>
+					</table>
+				</td>
+				<td colspan="1" align="left" width=30></td>
+			<tr>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Blood Group</p></td>	
+				<td colspan="1" align="left" width=330>
+					 <select>
+						<option value="A+">A+</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B-">B-</option>
+						<option value="AB+">AB+</option>
+						<option value="AB-">AB-</option>
+						<option value="O+">O+</option>
+						<option value="O-">O-</option>
+					</select>
+				</td>
+				<td colspan="1" align="left" width=30></td>
+			<tr>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Degree</p></td>	
+				<td colspan="1" align="left" width=330>
+					<input type="checkbox" name="degree" value="SSC"> 
+        				<label for="SSC">SSC</label> 
+        				<input type="checkbox" name="degree" value="HSC"> 
+        				<label for="HSC">HSC</label> 
+        				<input type="checkbox" name="degree" value="BSc."> 
+        				<label for="BSc.">BSc.</label>
+					
+				</td>
+				<td colspan="1" align="left" width=30></td>
+			<tr>
+
+			<tr>
+				<td colspan="1" align="left" width=100><p>&nbsp;Photo</p></td>	
+				<td colspan="2" align="left" width=330>
+					<input type="file" name="file">
+				</td>
+			<tr>
+			
+			<tr height=50>
+				<td colspan="3"></td>
+			</tr>
+			
+			<tr align="right">
+				<td colspan="3">
+					<input type="submit" value="Submit" name="submit"/>
+					<input type="reset" value="Reset" name="reset"/>
+				</td>	
+			</tr>
+		</table>
+	</body>		
+</html>
